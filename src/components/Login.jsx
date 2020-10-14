@@ -4,6 +4,7 @@ import Logo from '../images/logo-insta.png'
 
 import './Login.css'
 import NewAccount from './NewAccount'
+import Store from './Stores'
 
 const Login = props => {
     return (
@@ -32,6 +33,7 @@ const Login = props => {
                 </div>
             </div>
             <NewAccount />
+            <Store />
         </div>
     )
 }
