@@ -1,0 +1,104 @@
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 10px;
+    width: 400px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.group-login {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.input-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-login input {
+    margin: 5px;
+    padding: 5px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.btn-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-login a{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 40px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    font: 700 14px sans-serif;
+    transition: 0.2s;
+}
+
+.btn-login a:hover{
+    background-color: royalblue;
+}
+
+.container-hr {
+    display: flex;
+    margin-top: 15px;
+    color: gray;
+    width: 300px;
+}
+
+.container-hr div {
+    flex-grow: 1;
+    height: 1px;
+    margin: 5px 10px;
+    position: relative;
+    background-color: lightgray;
+}
+
+.login-face {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3b5998;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login-face i {
+    font-size: 1.6rem;
+    margin-right: 10px;
+}
+
+.password {
+    color: dimgray;
+    margin-top: 5px;
+}

@@ -1,0 +1,11 @@
+.container {
+    margin-top: 10px;
+}
+
+.group-account {
+    display: flex;
+}
+
+.group-account a {
+    margin-left: 10px;
+}
